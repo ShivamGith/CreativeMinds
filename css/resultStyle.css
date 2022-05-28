@@ -1,0 +1,74 @@
+main
+{
+    background-image: linear-gradient(to right, #040404, #401010);
+    width: auto;
+    height: auto;
+}
+
+main .que
+{
+    font-size: x-large;
+    color: #bedaca;
+    word-break: keep-all;
+    white-space: pre-wrap;
+}
+
+.normal
+{
+    font-size: medium;
+    color: #9fa3b9;
+}
+
+.review
+{
+    display: none;
+    text-align: left;
+}
+
+.score
+{
+    font-size: large;
+    color: rgb(204, 218, 219);
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.status
+{
+    color: red;
+    font-size: larger;
+    font-family: monospace;
+}
+
+.res p
+{
+    text-align: left;
+    font-size: large;
+}
+
+input[type='button']
+{
+    padding: 5px;
+    color: green;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: 300;
+    background-color: black;
+}
+
+@media only screen and (max-width: 400px)
+{
+    .score
+    {
+        font-size: small;
+    }
+}
+
+@media only screen and (max-width: 310px)
+{
+    .score
+    {
+        font-size: smaller;
+    }
+}

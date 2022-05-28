@@ -1,0 +1,298 @@
+* 
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif, Arial, Helvetica;
+    font-size: 10px;
+    overflow-wrap: break-word;
+}
+
+body 
+{
+    background-color: white
+}
+
+img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] 
+{
+    display: none;
+}
+
+main, #about-us
+{
+    background-color: rgb(51, 51, 51);
+    border-radius: 1.5rem;
+    box-sizing: border-box;
+    height: 100%;
+    width: 96%;
+    padding: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-weight: 500;
+    margin-right: 2%;
+    margin-left: 2%;
+    overflow-x: hidden;
+    z-index: -1;
+    margin-bottom: 20px;
+}
+
+#logo 
+{
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    letter-spacing: 0.5rem; 
+    font-size: 3rem;
+    display: block;
+    font-family: cursive;
+    background-color: rgb(51, 51, 51);  
+}
+
+header, navbar 
+{
+    position: sticky;
+    width: 100vw;
+    box-sizing: border-box;
+    top: 0px;
+    z-index: 10;
+}
+
+header .icon-label 
+{   
+    background-color: white;
+    margin-bottom: 1rem;
+    margin-top: 0rem;
+    font-family: cursive;
+    text-align: center;
+    font-weight: 600;
+    font-size: xx-large;
+    color: black;
+}
+
+header .icon 
+{
+    display: inline;
+    float: right;
+    height: 5rem;
+    width: 5rem;
+    margin-top: 0.5rem;
+    margin-right: 2rem;
+    border-radius: 1rem;
+}
+
+header .icons
+{
+    display: inline;
+    text-align: center;
+    float: right;
+    margin-right: 2rem;
+}
+
+header .icons h4
+{
+    margin-right: 2rem;
+}
+
+header .icon-label::after 
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header .icon-name
+{
+    display:inline-block; 
+    font-size: 1.5rem; 
+    width: 5rem; 
+    margin-right: 1.5rem; 
+    color: whitesmoke;
+    text-align: center;
+}
+
+navbar .menu, navbar .categories, navbar .details
+{
+    float: none;
+    font-size: 1.8em;
+    padding: 1.5rem;
+    display: block;
+    text-align: center;
+    border: none;
+    background-image: linear-gradient(to bottom, rgb(25, 9, 57),rgb(5, 5, 5));
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+navbar .menu:hover, navbar .categories:hover, navbar .details:hover
+{
+    color: aqua;
+    font-weight: 600;    
+    transition: ease-in-out;
+}
+
+#I-menu, #I-user, #I-categories, #I-details 
+{
+    display: none;
+    margin-bottom: 1em;
+    height: 10vh;
+}
+
+.info-head, .info-foot
+{
+    font-family: cursive;
+    font-size: 2rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    color: White;
+}
+
+main .info-content, #about-us .info-content
+{
+    font-family: cursive;
+    margin: 1rem;
+    box-sizing: border-box;
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer p
+{
+    display: grid;
+    justify-content: center;
+    text-align : center;
+    font-size: 1.5rem;
+}
+
+.test-box
+{
+    margin-left: 10vw;
+    width: 80vw; 
+    box-sizing: border-box;
+    border-radius: 15px; 
+    border: 5px solid rgb(51, 51, 51); 
+    text-align: center;
+    margin-bottom: 5rem;
+    background-image: linear-gradient(to right, rgb(84, 104, 143),rgb(238, 239, 241), rgb(26, 153, 192));
+    height: auto;
+}
+
+.test-category
+{
+    height: auto; 
+    width: 13vw; 
+    margin: 1vw 1vw 1vw 1vw;
+    /*border: 3px solid rgb(51, 51, 51);*/
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.test-category p
+{
+    font-size: 1.5rem;
+    font-weight:700;
+    color:black;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+.test-images
+{
+    height: 10vw;
+    width: 10vw;
+    margin-top: 1rem;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.test-category:hover
+{
+    padding: 2px;
+    width: 14vw;
+    height: 12vw;
+    border-color: green;
+    transition: 0.4s ease-in;
+}
+
+.bg
+{
+    margin-top: 15px;
+    margin-left: 10vw;
+    width: 80vw;
+    height: 70vh;
+    margin-bottom: 20px;
+    border: 5px solid rgb(51, 51, 51);
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+#about-us, #contact-us
+{
+    margin-bottom: 5rem;
+}
+
+@media only screen and (max-width: 768px) 
+{
+    navbar .menu, navbar .user, navbar .categories, navbar .details 
+    {
+        float: none;
+        padding: 1rem;
+    }
+    header .icon 
+    {
+        display: flex;
+        margin-top: 1rem;
+        margin-right: 1rem;
+    }
+    header .icon-name
+    { 
+        margin-right: 1rem; 
+    }
+}
+
+@media only screen and (max-width: 250px) 
+{
+    #logo
+    {
+        width: 250px;
+        font-size: medium;
+    }
+    header .icon-label
+    {
+        width: 250px;
+    }
+    header .icon 
+    {
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+    header .icon-name
+    {
+        font-size: 1rem; 
+        width: 3.5rem;
+    }
+    main
+    {
+        width: fit-content;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .test-category p
+    {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 200px)
+{
+    .bg
+    {
+        width: 150px;
+        height: 150px;
+    }
+}

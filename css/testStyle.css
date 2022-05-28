@@ -1,0 +1,109 @@
+main
+{
+    background-image: linear-gradient(to right, rgb(18, 20, 18), rgb(10, 10, 10));
+    width: 71vw;
+    height: 60vh;
+    margin: auto;
+    float: left;
+    margin-left: 0.5vw;
+    box-sizing: border-box;
+}
+
+main .que
+{
+    font-size: medium;
+    color: white;
+    word-break: keep-all;
+    white-space: pre-wrap;
+}
+
+.option
+{
+    font-size: small;
+}
+
+.Q-numbers
+{
+    height: 60vh;
+    width: 25vw;
+    background-color:rgb(213, 213, 213);
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    margin-bottom: 5px;
+    float: right;
+    border-radius: 1rem;
+    margin-right: 0.5vw;
+}
+
+.block ::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+input[type="submit"]
+{
+    background-image: linear-gradient(to right, rgb(4, 121, 4), rgb(4, 121, 4));
+    border-radius: 0.5rem;
+    padding: 1rem;
+    color: black;
+    font-size: 1rem;
+    margin: 0.5rem;
+}
+
+#timer
+{
+    color: whitesmoke;
+    font-weight: 500;
+    text-align: center; 
+    font-size: 25px;
+    
+    margin-bottom: 1rem;
+    padding: 2px;
+    display: block;
+    background-image: linear-gradient(to right, rgb(51, 51, 51),rgb(51, 51, 51), rgb(51, 51, 51));
+}
+
+.numbers
+{
+    font-size: 2vw;
+    height: 3vw;
+    width: 3vw;
+    background-color: rgb(13, 110, 13);
+    border: 1px solid black;
+    text-align: center;
+    font-family: monospace;
+    margin-right: 0.4vw;
+    margin-bottom: 0.4vw;
+    padding: 0.4vw;
+    font-weight: 700;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.btn-set
+{
+    width: 98vw;
+    margin-left: 2vw;
+    margin-bottom: 100px;
+    display: inline-block;
+    font-size: xx-large;
+}
+
+@media only screen and (max-width: 450px)
+{
+    .numbers
+    {
+        height: 4vw;
+        width: 4vw;
+        font-size: 3vw;
+    }
+    input[type="submit"]
+    {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+}

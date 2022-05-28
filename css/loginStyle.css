@@ -1,0 +1,214 @@
+.user-detail  .error
+{
+    color: red;
+    font-weight: 400;
+    font-size: large;
+}
+
+
+.user-detail .exit
+{
+    float: right; 
+    text-decoration: none;
+    height: 2rem;
+    width: 2rem;
+    margin-top: 0.5rem;
+}
+
+.user-detail .correct, .user-detail .incorrect
+{
+    height: 3%;
+    width: 3%;
+    display: none;
+}
+
+.user-detail .status-pass
+{
+    height: 2rem;
+    width: 2rem;
+    display: none;
+}
+
+.user-detail #hideicon
+{
+    display: inline;
+    margin-bottom: 0px;
+}
+
+.note p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    overflow-x: visible;
+    word-wrap: break-word;
+}
+
+.note .heading
+{
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.user-detail .btn
+{
+    background-image: linear-gradient(to right,rgb(4, 121, 4), rgb(4, 121, 4));
+    padding: 1rem 7%;
+    border-radius: 0.5rem;
+    margin-bottom: 3rem;
+    text-decoration: none;
+    margin-left: 0%;
+}
+
+.user-detail .btn:hover
+{
+    background-image: linear-gradient(to right,rgb(13, 42, 139), rgb(221, 15, 15));
+}
+
+.user-detail p .icon
+{
+    height: auto;
+    width: 5rem;
+}
+
+.user-detail
+{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: sans-serif;
+    letter-spacing: 0.2rem;
+    background: rgba(163,60,197,0.9);
+    color: rgb(4, 12, 12);
+    font-size: 2rem;
+    overflow: auto;
+    padding: 1rem;
+    width: 70vw;
+    height: fit-content;
+    box-sizing: border-box;
+    margin-left: 15vw;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+    overflow-x: hidden;
+    background-image: linear-gradient(to right, rgb(84, 104, 143),rgb(238, 239, 241), rgb(26, 153, 192));
+    border-radius: 10px;
+}
+
+.user-detail label
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: rgb(0, 0, 0);
+}
+
+.user-detail input[type="text"], .user-detail input[type="password"], .user-detail input[type="number"], textarea
+{
+    width: 70%;
+    height: 30px;
+    margin-top: 1rem;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    border-bottom: 2px solid rgb(51, 51, 51);
+    font-size: 1.8rem;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+}
+
+.user-detail input[type="submit"], .user-detail input[type="reset"]
+{
+    background-image: linear-gradient(to right, rgb(4, 121, 4), rgb(4, 121, 4));
+    border-radius: 0.5rem;
+    padding: 1rem;
+    color: black;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+}
+
+textarea
+{
+    height: 50%;
+    width: 50%;
+}
+
+.user-detail input[type="text"]:hover, .user-detail input[type="password"]:hover, .user-detail input[type="number"]:hover, textarea:hover
+{
+    background-image: linear-gradient(to right, white, white);
+}
+
+.user-detail input[type="submit"]:hover, .user-detail input[type="reset"]:hover
+{
+    background-image: linear-gradient(to right,rgb(13, 42, 139), rgb(221, 15, 15));
+}
+
+.user-detail input[type="checkbox"], .user-detail p
+{
+    display: inline-flex;
+    font-size: 1.5rem;
+    text-align: left;
+    justify-content: left;
+}
+
+.user-detail a
+{
+    margin-left: 4%;
+    display: inline-flex;
+    font-size: 1.5rem;
+    text-align: right;
+    justify-content: right;
+    color: black;
+}
+
+.user-detail input[type="submit"]
+{
+    display: inline-flex;
+    justify-content: right;
+    text-align: right;
+
+}
+
+.passlogo
+{
+    margin-left: 5rem;
+}
+#image_input, #image_uploaded
+{
+    width: 30%;
+    height: auto;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 350px)
+{
+    .user-detail
+    {
+        width: 230px;
+        font-size: 1.5rem;
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 250px)
+{
+    .user-detail
+    {
+        width: 250px;
+        margin-left: 1rem;
+    }
+    .user-detail .btn
+    {
+        font-size: 1rem;
+    }
+    .note .heading
+    {
+        font-size: small;
+    }
+    .note p
+    {
+        font-size: x-small;
+    }
+}

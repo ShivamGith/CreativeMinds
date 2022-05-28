@@ -1,0 +1,61 @@
+body
+{
+    background-color: antiquewhite;
+}
+
+img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] 
+{
+    display: none;
+}
+
+.Guidelines
+{
+    color: black;
+    font-weight: 600;
+    font-size: larger;
+    font-family: cursive;
+    padding: 1vw;
+    box-sizing: border-box;
+    height: 80vh;
+    width: 80vw;
+    margin-left: 10vw;
+    background-image: linear-gradient(45deg, #c7bec6d4, #c7bec6d4);
+    margin-top: 10vh;
+    overflow-y: auto;
+    text-align: left;
+    margin-bottom: 10rem;
+    border-radius: 1rem;
+}
+
+#logo
+{
+    font-size: 2em;
+}
+
+#page-head
+{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-size: larger;
+    width: fit-content;
+    color: red;
+    font-weight: 600;
+}
+
+input[type="submit"]
+{
+    color: black;
+    font-weight: 600;
+    font-size: larger;
+    padding: 5px;
+    background-image: linear-gradient(to right, rgb(4, 121, 4), rgb(4, 121, 4));
+    margin-left: 50%;
+    border-radius: 8px;
+    transform: translate(-50%);
+}
+
+input[type="submit"]:hover
+{
+    color: rgb(10, 10, 10);
+    background-image: linear-gradient(to right,rgb(13, 42, 139), rgb(221, 15, 15));
+}
